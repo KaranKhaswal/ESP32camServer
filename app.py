@@ -1,6 +1,5 @@
 from flask import Flask, request, send_file
 import os
-
 app = Flask(__name__)
 IMAGE_PATH = "latest.jpg"
 
